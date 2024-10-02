@@ -6,7 +6,10 @@ public class Clientes {
     private String clienteNome;
     private String clienteCpf;
     private String clienteTelefone;
+    private String clienteEmail;
+    private String clienteEndereco;
     
+
     public int getClienteId() {
         return clienteId;
     }
@@ -37,6 +40,22 @@ public class Clientes {
     
     public void setClienteTelefone(String clienteTelefone) {
         this.clienteTelefone = clienteTelefone;
+    }
+    
+    public String getClienteEmail() {
+        return clienteEmail;
+    }
+
+    public void setClienteEmail(String clienteEmail) {
+        this.clienteEmail = clienteEmail;
+    }
+
+    public String getClienteEndereco() {
+        return clienteEndereco;
+    }
+
+    public void setClienteEndereco(String clienteEndereco) {
+        this.clienteEndereco = clienteEndereco;
     }
     
     
