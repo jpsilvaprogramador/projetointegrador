@@ -9,6 +9,27 @@ public class Clientes {
     private String clienteEmail;
     private String clienteEndereco;
     
+    
+
+    public Clientes() {
+	super();
+	// TODO Auto-generated constructor stub
+    }
+    
+    
+
+    public Clientes(int clienteId, String clienteNome, String clienteCpf, String clienteTelefone, String clienteEmail,
+	    String clienteEndereco) {
+	super();
+	this.clienteId = clienteId;
+	this.clienteNome = clienteNome;
+	this.clienteCpf = clienteCpf;
+	this.clienteTelefone = clienteTelefone;
+	this.clienteEmail = clienteEmail;
+	this.clienteEndereco = clienteEndereco;
+    }
+
+
 
     public int getClienteId() {
         return clienteId;
